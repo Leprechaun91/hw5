@@ -10,7 +10,7 @@ void eulerb(double*, const int, const double, const double);
 
 int main(){
   const double pi = M_PI;
-  const double dt = pi/100;
+  const double dt = pi/1000;
   const double T = 20*pi;
   const int N = T/dt;
   double arrayf[N*2];
